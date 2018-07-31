@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#898484">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border_layout"
+        android:padding="@dimen/_2sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/categorybar_size" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/circle_text"
+
+        android:layout_alignBottom="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:maxEms="5"
+            android:maxLines="3"
+            android:text="cjkdbc dvbd"
+            android:textColor="#fff"
+
+            />
+
+        <TextView
+            android:id="@+id/idtxt"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="cjkdbckjbdkdvbd"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
